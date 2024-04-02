@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+<script src="./Chart_Library.js"></script>
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Report alive tab activity</title>
+  <link rel="stylesheet" href="./options.css">
+</head>
+
+<body>
+  <div style="display: flex; justify-content: center; margin-top: 50px;">
+    <canvas id="week" style="width: 80vw; height: 60vh; max-width:650px; max-height: 450px;"></canvas>
+    <canvas id="day" style="width: 80vw; height: 60vh; max-width:650px; max-height: 450px; "></canvas>
+    <canvas id="month" style="width: 80vw; height: 60vh; max-width:650px; max-height: 450px;"></canvas>
+  </div>
+
+  <div class="selector_btn">
+    <button id="week-btn" class="toggle-btn">Week</button>
+    <button id="day-btn" class="toggle-btn active">Day</button>
+    <button id="month-btn" class="toggle-btn">Month</button>
+  </div>
+
+
+  <div id="myForm" class="Setting">
+    <div class="Setting-div">
+      <label>
+        From:
+      </label>
+      <input type="email" id="fromEmail" name="email" placeholder="akira@gmail.com" required>
+    </div>
+
+    <div class="Setting-div">
+      <label>
+        Password:
+      </label>
+      <input type="password" id="password" name="password" placeholder="****************" required>
+    </div>
+    
+    <div class="Setting-div">
+      <label>
+        To:
+      </label>
+      <input type="email" id="toEmail" name="email" placeholder="troy@gmail.com" required>
+    </div>
+
+    <div class="Setting-div">
+      <label>
+        Time:
+      </label>
+      <input type="text" id="time" name="time" value="9:00 PM">
+    </div>
+
+    <button id="email-setting" class="setting-btn" >Apply</button>
+
+  </div>
+
+  <div class="help">
+    <button id="need-help" class="help-btn">I need help</button>
+    <textarea id="help-area" name="help-area" style="margin-top: 20px;"></textarea>
+  </div>
+
+  <script src="./Draw_Chart.js"></script>
+  <script src="./Button_active.js"></script>
+  
+</body>
+
+</html>

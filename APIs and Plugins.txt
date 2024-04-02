@@ -1,0 +1,27 @@
+1. Chrome APIs
+  - chrome.storage
+    --chrome.storage.get()
+    --chrome.storage.save()
+  - chrome.onInstalled
+  - chrome.tabs
+    --chrome.tabs.onActived.addListner()
+    --chrome.tabs.onUpdated.addListner()
+  - chrome.runtime
+    --chrome.runtime.sendMessage()
+    --chrome.runtime.onMessage.addListner()
+  - chrome.window
+  - chrome.action
+
+2.Transmission Method
+  - fetch method
+
+3. Node server
+  - nodemailer
+  - bodyparser
+  - JSON format
+
+4. Front-end
+  - Chart.js
+  - CSS3
+  - JavaScript
+  - Tooltips
